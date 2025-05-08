@@ -23,7 +23,7 @@ Développer un système capable de :
 - 🔐 Configuration d’un serveur SSH vulnérable (en environnement contrôlé).
 - 📄 Génération de trafic : connexions légitimes + attaques par force brute.
 - 📈 Prétraitement et extraction de caractéristiques des logs SSH.
-- 🤖 Entraînement de modèles IA (ex : Random Forest, SVM, etc.).
+- 🤖 Entraînement de modèles IA (ex : Random Forest).
 - 🚨 Détection en temps réel des attaques.
 - 📊 Dashboard interactif avec visualisation des résultats (via Streamlit).
 
