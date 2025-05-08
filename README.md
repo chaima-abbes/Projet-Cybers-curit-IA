@@ -1,14 +1,14 @@
-# 🔐 Détection d'attaques par force brute sur SSH avec Intelligence Artificielle
+#  Détection d'attaques par force brute sur SSH avec Intelligence Artificielle
 
 Ce projet propose une approche proactive de la sécurité des serveurs SSH en détectant automatiquement les attaques par force brute grâce à un modèle d'intelligence artificielle entraîné sur les journaux d'authentification.
 
-## 📌 Contexte
+##  Contexte
 
 Les attaques par force brute sont l’une des méthodes les plus répandues pour compromettre des serveurs SSH vulnérables. Elles consistent à tester un grand nombre de combinaisons d'identifiants jusqu’à en trouver une correcte. Une détection intelligente et en temps réel permet de renforcer la sécurité des systèmes critiques.
 
 ---
 
-## 🧠 Objectif du projet
+##  Objectif du projet
 
 Développer un système capable de :
 - Identifier les tentatives d'attaques par force brute dans les fichiers logs (`auth.log`).
@@ -18,13 +18,13 @@ Développer un système capable de :
 
 ---
 
-## ⚙️ Fonctionnalités
+##  Fonctionnalités
 
-- 🔐 Configuration d’un serveur SSH vulnérable (en environnement contrôlé).
-- 📄 Génération de trafic : connexions légitimes + attaques par force brute.
-- 📈 Prétraitement et extraction de caractéristiques des logs SSH.
-- 🤖 Entraînement de modèles IA (ex : Random Forest).
-- 🚨 Détection en temps réel des attaques.
-- 📊 Dashboard interactif avec visualisation des résultats (via Streamlit).
+-  Configuration d’un serveur SSH vulnérable (en environnement contrôlé).
+-  Génération de trafic : connexions légitimes + attaques par force brute.
+-  Prétraitement et extraction de caractéristiques des logs SSH.
+-  Entraînement de modèles IA (ex : Random Forest).
+-  Détection en temps réel des attaques.
+-  Dashboard interactif avec visualisation des résultats (via Streamlit).
 
 
